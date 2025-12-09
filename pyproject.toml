@@ -29,7 +29,7 @@ Documentation = "https://github.com/lord-lethris/ComfyUI-lethris-dia2/wiki"
 "Bug Tracker" = "https://github.com/lord-lethris/ComfyUI-lethris-dia2/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "lord-lethris"
 DisplayName = "ComfyUI-lethris-dia2"
 Icon = ""
 includes = [] 
