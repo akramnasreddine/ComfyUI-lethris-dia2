@@ -97,11 +97,11 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 
 
-- Workflow JSON: `Examples/Dia2_TTS_and_Caption_Generators.json`  
+- Workflow JSON: [Examples/Dia2_TTS_and_Caption_Generators.json](Examples/Dia2_TTS_and_Caption_Generators.json)
 
-- Example image: `Examples/Dia2_TTS_and_Caption_Generators.png`  
+- Example image: [Examples/Dia2_TTS_and_Caption_Generators.png](Examples/Dia2_TTS_and_Caption_Generators.png)
 
-- Voice samples: `Voice/Voice_Sample_S1.wav`, `Voice/Voice_Sample_S2.wav`
+- Voice samples: [Voice/Voice_Sample_S1.wav](Voice/Voice_Sample_S1.wav), [Voice/Voice_Sample_S2.wav](Voice/Voice_Sample_S2.wav)
 
 
 
