@@ -84,31 +84,49 @@ CPU mode works but is slower.
 
 ## Usage in ComfyUI
 
+### 1. Drag in the nodes
 
+- 🗣️ **Dia2 TTS Generator** → converts your text prompt into audio and generates word-level timestamps.  
+- 💬 **Dia2 Captions Generator** → converts timestamps into captions in multiple formats.
 
-1. Drag in the nodes:
+### 2. Using the Dia2 TTS Generator
 
-&nbsp;  - 🗣️ **Dia2 TTS Generator** → generates audio and timestamps  
+- Enter your **prompt** in the text box. You can use multiple lines for multiple speakers.  
+- Optional: supply **voice samples** for S1 and S2 to mimic the voices.  
+- **Seed**: set a fixed seed for reproducible audio.  
+- **Model & Tokenizer**: select the Dia2-2B model and corresponding tokenizer.  
+- **Device & Dtype**: choose GPU (CUDA) or CPU. GPU is faster; CPU works but slower.  
+- **Output Format**: select `wav`, `flac`, or `mp3`.  
+- **CFG / Temperature / Top-K**: tweak text and audio generation parameters to control randomness and style.  
 
-&nbsp;  - 💬 **Dia2 Captions Generator** → converts timestamps to captions
+#### Special Tokens / Actions
 
-2. Caption options:
+Dia2 supports a variety of expressive tokens in your prompt:
 
-&nbsp;  - **Per Word**
+```
+[S1], [S2], (laughs), (applause), (audience cheers), (coughs), (sings), (barks), (screams), (phone ringing), (groans), (thunder), (whispers), (explosion), (car engine sound), (beatboxing), (sighs)
+```
 
-&nbsp;  - **Sentence**
+- `[S1]` / `[S2]` → switches speaker lines  
+- `(laughs)` → inserts laughter  
+- `(applause)` → inserts applause  
+- `(sighs)` → adds sigh  
+- `(audience cheers)` → crowd cheering  
+- …and many more, see the full token list in the project.
 
-&nbsp;  - **Sentence Advanced**
+Use these tokens inline in your text to simulate real-world dialogue or sound effects.
 
-3. Caption formats: **SRT**, **SSA/ASS**, **VTT**  
+### 3. Generating Captions
 
-4. Output folder: `output/captions` (auto-generated, avoids overwriting)  
-
-
+- Drag in the 💬 **Dia2 Captions Generator** and connect the **timestamps_json** output from the TTS node.  
+- **Caption Modes**:  
+  - **Per Word** → each word gets its own timestamped caption.  
+  - **Sentence** → groups words into sentences based on punctuation.  
+  - **Sentence Advanced** → intelligently groups words respecting punctuation and parentheses.  
+- **Caption Formats**: choose **SRT**, **SSA/ASS**, or **VTT**.  
+- Captions are automatically saved to `output/captions`, with unique filenames to prevent overwrites.
 
 ---
-
-
 
 ## Example Workflow
 
