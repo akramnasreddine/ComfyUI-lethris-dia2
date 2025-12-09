@@ -40,7 +40,7 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 ---
 
-[//]: <> (This is also a comment.)
+[//]: <> (
 
 ## 📦 Install via ComfyUI Manager (Recommended 🎉)
 
@@ -53,6 +53,8 @@ To install:
 3. Search for: `"Dia2 TTS & Captions Generators for ComfyUI`
 4. Click **Install**
 5. Restart ComfyUI — you're ready to go!
+
+)
 
 ## 🛠️ Manual Installation (if needed)
 
