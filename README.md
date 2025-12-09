@@ -132,4 +132,4 @@ These show how to set up multi-speaker prompts and caption generation.
 
 
 
-Massive thanks to **![nari-labs](https://huggingface.co/nari-labs)** for an absolutely smashing job on Dia2! 🎉
+Massive thanks to **[nari-labs](https://huggingface.co/nari-labs)** for an absolutely smashing job on Dia2! 🎉
