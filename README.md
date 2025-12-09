@@ -39,23 +39,6 @@ Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. 
 
 
 ---
-
-[//]: <> (
-
-## 📦 Install via ComfyUI Manager (Recommended 🎉)
-
-The node is now officially listed in **ComfyUI Manager**!
-
-To install:
-
-1. Launch **ComfyUI** and open **Manager** (via sidebar or `custom_nodes` menu).
-2. Go to the **Install Custom Nodes** tab.
-3. Search for: `"Dia2 TTS & Captions Generators for ComfyUI`
-4. Click **Install**
-5. Restart ComfyUI — you're ready to go!
-
-)
-
 ## 🛠️ Manual Installation (if needed)
 
 Clone this repo into your ComfyUI `custom_nodes` folder:
